@@ -1,0 +1,95 @@
+2026-01-15 20:43:54.333 [warning] Dir "/data/data/com.termux/files/home/.pixi/envs" is not watchable (directory does not exist)
+2026-01-15 20:43:54.566 [info] Starting Environment refresh
+2026-01-15 20:43:54.567 [info] Searching for interpreters in posix paths locator
+2026-01-15 20:43:54.591 [info] Searching for pyenv environments
+2026-01-15 20:43:54.591 [info] Searching for conda environments
+2026-01-15 20:43:54.592 [info] Searching for global virtual environments
+2026-01-15 20:43:54.592 [info] Searching for custom virtual environments
+2026-01-15 20:43:54.608 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-01-15 20:43:54.609 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-01-15 20:43:54.618 [info] pyenv is not installed
+2026-01-15 20:43:54.618 [info] Finished searching for pyenv environments: 48 milliseconds
+2026-01-15 20:43:54.619 [info] Finished searching for custom virtual envs: 45 milliseconds
+2026-01-15 20:43:54.660 [info] > conda info --json
+2026-01-15 20:43:54.695 [info] > hatch env show --json
+2026-01-15 20:43:54.695 [info] cwd: .
+2026-01-15 20:43:54.699 [warning] Looking for python binaries within /bin failed with [Error: EACCES: permission denied, scandir '/bin'
+	at async Object.readdir (node:internal/fs/promises:957:18)
+	at async f (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:742309)
+	at async t.getPythonBinFromPosixPaths (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:743133)
+	at async /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:683892
+	at async i (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:338188)] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/bin'
+}
+2026-01-15 20:43:54.735 [info] > pyenv which python
+2026-01-15 20:43:54.735 [info] cwd: .
+2026-01-15 20:43:54.736 [info] Finished searching for global virtual envs: 162 milliseconds
+2026-01-15 20:43:54.785 [info] Found: /data/data/com.termux/files/usr/bin/python --> /data/data/com.termux/files/usr/bin/python3.12
+2026-01-15 20:43:54.788 [info] Found: /data/data/com.termux/files/usr/bin/python3 --> /data/data/com.termux/files/usr/bin/python3.12
+2026-01-15 20:43:54.789 [info] Found: /data/data/com.termux/files/usr/bin/python3.12 --> /data/data/com.termux/files/usr/bin/python3.12
+2026-01-15 20:43:54.791 [warning] Looking for python binaries within /product/bin failed with [Error: EACCES: permission denied, scandir '/product/bin'
+	at async Object.readdir (node:internal/fs/promises:957:18)
+	at async f (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:742309)
+	at async t.getPythonBinFromPosixPaths (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:743133)
+	at async /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:683892
+	at async i (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:338188)] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/product/bin'
+}
+2026-01-15 20:43:54.799 [warning] Looking for python binaries within /system_ext/bin failed with [Error: EACCES: permission denied, scandir '/system_ext/bin'
+	at async Object.readdir (node:internal/fs/promises:957:18)
+	at async f (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:742309)
+	at async t.getPythonBinFromPosixPaths (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:743133)
+	at async /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:683892
+	at async i (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:338188)] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/system_ext/bin'
+}
+2026-01-15 20:43:54.801 [warning] Looking for python binaries within /system/bin failed with [Error: EACCES: permission denied, scandir '/system/bin'
+	at async Object.readdir (node:internal/fs/promises:957:18)
+	at async f (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:742309)
+	at async t.getPythonBinFromPosixPaths (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:743133)
+	at async /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:683892
+	at async i (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:338188)] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/system/bin'
+}
+2026-01-15 20:43:54.804 [warning] Looking for python binaries within /system/xbin failed with [Error: EACCES: permission denied, scandir '/system/xbin'
+	at async Object.readdir (node:internal/fs/promises:957:18)
+	at async f (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:742309)
+	at async t.getPythonBinFromPosixPaths (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:743133)
+	at async /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:683892
+	at async i (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:338188)] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/system/xbin'
+}
+2026-01-15 20:43:54.807 [warning] Looking for python binaries within /vendor/bin failed with [Error: EACCES: permission denied, scandir '/vendor/bin'
+	at async Object.readdir (node:internal/fs/promises:957:18)
+	at async f (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:742309)
+	at async t.getPythonBinFromPosixPaths (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:743133)
+	at async /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:683892
+	at async i (/data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/out/client/extension.js:2:338188)] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/vendor/bin'
+}
+2026-01-15 20:43:54.809 [info] Finished searching for interpreters in posix paths locator: 247 milliseconds
+2026-01-15 20:43:54.904 [info] > /data/data/com.termux/files/usr/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2026.0.0-universal/python_files/interpreterInfo.py
+2026-01-15 20:43:54.904 [info] Environments refresh paths discovered (event): 344 milliseconds
+2026-01-15 20:43:54.904 [info] Environments refresh paths discovered: 345 milliseconds
+2026-01-15 20:43:55.158 [info] Environments refresh finished (event): 599 milliseconds
+2026-01-15 20:43:55.186 [info] Environment refresh took 624 milliseconds
+2026-01-15 20:43:55.198 [info] Python interpreter path: /data/data/com.termux/files/usr/bin/python
+2026-01-15 20:43:58.711 [info] Starting Jedi language server for home.

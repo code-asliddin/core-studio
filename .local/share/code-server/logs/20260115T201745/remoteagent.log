@@ -1,0 +1,61 @@
+2026-01-15 20:17:45.832 [info] 
+
+
+
+
+2026-01-15 20:17:45.832 [error] Error: Unable to retrieve mac address (unexpected format)
+    at nF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:19758)
+    at cF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20135)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20052
+    at async Promise.all (index 2)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+2026-01-15 20:17:45.832 [error] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Module._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at cjsLoader (node:internal/modules/esm/translators:309:5)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async uF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20442)
+    at async Promise.all (index 4)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+2026-01-15 20:17:45.882 [info] Extension host agent started.
+2026-01-15 20:17:45.997 [info] Started initializing default profile extensions in extensions installation folder. file:///data/data/com.termux/files/home/.local/share/code-server/extensions
+2026-01-15 20:17:46.042 [info] Completed initializing default profile extensions in extensions installation folder. file:///data/data/com.termux/files/home/.local/share/code-server/extensions
+2026-01-15 20:19:17.946 [info] [127.0.0.1][36c16021][ManagementConnection] New connection established.
+2026-01-15 20:19:20.768 [info] [127.0.0.1][4c75e4e2][ExtensionHostConnection] New connection established.
+2026-01-15 20:19:21.676 [info] [127.0.0.1][4c75e4e2][ExtensionHostConnection] <20747> Launched Extension Host Process.
+2026-01-15 20:19:25.638 [info] [127.0.0.1][4c75e4e2][ExtensionHostConnection] <20747> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-01-15 20:24:45.172 [info] [127.0.0.1][36c16021][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-01-15 20:24:45.445 [info] [127.0.0.1][4c75e4e2][ExtensionHostConnection] <20747> Extension Host Process exited with code: 0, signal: null.
+2026-01-15 20:24:48.651 [info] [127.0.0.1][2b687446][ManagementConnection] New connection established.
+2026-01-15 20:24:50.734 [info] [127.0.0.1][96326bed][ExtensionHostConnection] New connection established.
+2026-01-15 20:24:50.778 [info] [127.0.0.1][96326bed][ExtensionHostConnection] <24954> Launched Extension Host Process.
+2026-01-15 20:24:52.451 [info] [127.0.0.1][96326bed][ExtensionHostConnection] <24954> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-01-15 20:29:07.999 [error] [File Watcher (node.js)] Failed to watch /product/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/product/bin')
+2026-01-15 20:29:08.119 [error] [File Watcher (node.js)] Failed to watch /system_ext/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/system_ext/bin')
+2026-01-15 20:29:08.124 [error] [File Watcher (node.js)] Failed to watch /system/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/system/bin')
+2026-01-15 20:29:08.125 [error] [File Watcher (node.js)] Failed to watch /system/xbin for changes using fs.watch() (Error: EACCES: permission denied, watch '/system/xbin')
+2026-01-15 20:29:08.132 [error] [File Watcher (node.js)] Failed to watch /odm/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/odm/bin')
+2026-01-15 20:29:08.135 [error] [File Watcher (node.js)] Failed to watch /vendor/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/vendor/bin')
+2026-01-15 20:43:29.373 [info] Getting Manifest... ms-python.python
+2026-01-15 20:43:38.183 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json","external":"file:///data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json","path":"/data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.108.0","date":"2026-01-13T03:18:01.536Z"}}
+2026-01-15 20:43:40.591 [info] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs The 'ms-python.vscode-python-envs' extension is not available in code-server for the Web platform.
+2026-01-15 20:43:40.592 [info] Skipping the packed extension as it cannot be installed ms-python.debugpy The 'ms-python.debugpy' extension is not available in code-server for the Web platform.
+2026-01-15 20:43:50.843 [info] Extracted extension to file:///data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal: ms-python.python
+2026-01-15 20:43:51.209 [info] Renamed to /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal
+2026-01-15 20:43:51.267 [info] Extension installed successfully: ms-python.python file:///data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json
+2026-01-15 21:30:39.507 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-15 21:30:39.533 [info] [127.0.0.1][2b687446][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-01-16 08:15:20.860 [info] [127.0.0.1][2b687446][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2026-01-16 08:15:33.170 [info] [127.0.0.1][96326bed][ExtensionHostConnection] <24954> Extension Host Process exited with code: 0, signal: null.

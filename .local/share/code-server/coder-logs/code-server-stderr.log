@@ -1,0 +1,84 @@
+[20:17:45] Error: Unable to retrieve mac address (unexpected format)
+    at nF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:19758)
+    at cF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20135)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20052
+    at async Promise.all (index 2)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+[20:17:45] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:24:11)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Module._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at cjsLoader (node:internal/modules/esm/translators:309:5)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async uF (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:78:20442)
+    at async Promise.all (index 4)
+    at async VB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:194:413)
+    at async YB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:195:1392)
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/data/'
+    at async Object.readdir (node:internal/fs/promises:957:18)
+    at async HO (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91533)
+    at async b6 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91462)
+    at async Object.kh (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91327)
+    at async Yu.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:67:15804) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/'
+    at async Object.readdir (node:internal/fs/promises:957:18)
+    at async HO (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91533)
+    at async b6 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91462)
+    at async Object.kh (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91327)
+    at async Yu.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:67:15804) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/'
+    at async Object.readdir (node:internal/fs/promises:957:18)
+    at async HO (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91533)
+    at async b6 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91462)
+    at async Object.kh (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91327)
+    at async Yu.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:67:15804) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/'
+    at async Object.readdir (node:internal/fs/promises:957:18)
+    at async HO (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91533)
+    at async b6 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91462)
+    at async Object.kh (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:27:91327)
+    at async Yu.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:67:15804) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/'
+}
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[20:29:08] [File Watcher (node.js)] Failed to watch /product/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/product/bin')
+[20:29:08] [File Watcher (node.js)] Failed to watch /system_ext/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/system_ext/bin')
+[20:29:08] [File Watcher (node.js)] Failed to watch /system/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/system/bin')
+[20:29:08] [File Watcher (node.js)] Failed to watch /system/xbin for changes using fs.watch() (Error: EACCES: permission denied, watch '/system/xbin')
+[20:29:08] [File Watcher (node.js)] Failed to watch /odm/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/odm/bin')
+[20:29:08] [File Watcher (node.js)] Failed to watch /vendor/bin for changes using fs.watch() (Error: EACCES: permission denied, watch '/vendor/bin')
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@xterm/addon-ligatures/lib/addon-ligatures.js
+[21:30:39] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}

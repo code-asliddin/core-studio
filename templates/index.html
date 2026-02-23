@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Qidiruv Tizimi</title>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .container { width: 100%; max-width: 600px; text-align: center; margin-top: 50px; }
+        h1 { color: #38bdf8; font-size: 2.5rem; }
+        .search-box { display: flex; gap: 10px; margin-top: 20px; }
+        input { flex: 1; padding: 15px; border-radius: 12px; border: 2px solid #334155; background: #1e293b; color: white; outline: none; }
+        input:focus { border-color: #38bdf8; }
+        button { padding: 15px 25px; border-radius: 12px; border: none; background: #38bdf8; color: #0f172a; font-weight: bold; cursor: pointer; }
+        #result { margin-top: 30px; padding: 20px; border-radius: 12px; background: #1e293b; border: 1px solid #334155; text-align: left; display: none; line-height: 1.6; }
+        .loader { display: none; border: 4px solid #f3f3f3; border-top: 4px solid #38bdf8; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 20px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Search</h1>
+        <div class="search-box">
+            <input type="text" id="query" placeholder="Savolingizni yozing..." onkeypress="if(event.key==='Enter')search()">
+            <button onclick="search()">Izlash</button>
+        </div>
+        <div class="loader" id="loader"></div>
+        <div id="result"></div>
+    </div>
+    <script>
+        async function search() {
+            const query = document.getElementById('query').value;
+            const resDiv = document.getElementById('result');
+            const loader = document.getElementById('loader');
+            if(!query) return;
+
+            resDiv.style.display = 'none';
+            loader.style.display = 'block';
+
+            const response = await fetch('/search', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'query=' + encodeURIComponent(query)
+            });
+            const data = await response.json();
+            loader.style.display = 'none';
+            resDiv.style.display = 'block';
+            resDiv.innerHTML = '<strong>Javob:</strong><br>' + data.result.replace(/\n/g, '<br>');
+        }
+    </script>
+</body>
+</html>
+

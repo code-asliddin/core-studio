@@ -1,0 +1,40 @@
+
+<head>
+<head>KSKSk
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Studio Pro v4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CORE<span>STUDIO</span></div>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('editor-view')">KOD</button>
+            <button class="tab-btn" onclick="switchTab('result-view'); runCode();">NATIJA</button>
+        </div>
+        <button class="btn-clear" onclick="clearEditor()">TOZALASH</button>
+    </header>
+
+    <main>
+        <div id="editor-view" class="content-view active">
+            <div class="editor-container">
+                <div class="line-numbers" id="lineNumbers">1</div>
+                <textarea id="editor" spellcheck="false" oninput="updateEditor()" onscroll="syncScroll()" placeholder="Kodingizni bu yerga yozing..."></textarea>
+            </div>
+        </div>
+
+        <div id="result-view" class="content-view">
+            <iframe id="viewer"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div id="status">● Ready</div>
+        <div id="stats">Lines: 1 | Chars: 0</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

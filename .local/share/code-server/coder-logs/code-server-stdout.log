@@ -1,0 +1,54 @@
+[2026-01-15T15:14:42.677Z] info  code-server 4.108.0 9233f0438330450deb48a0b957820b5f0c7f1e91
+[2026-01-15T15:14:42.683Z] info  Using user-data-dir /data/data/com.termux/files/home/.local/share/code-server
+[2026-01-15T15:14:42.752Z] info  Using config file /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-01-15T15:14:42.753Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2026-01-15T15:14:42.753Z] info    - Authentication is enabled
+[2026-01-15T15:14:42.753Z] info      - Using password from /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-01-15T15:14:42.753Z] info    - Not serving HTTPS
+[2026-01-15T15:14:42.754Z] info  Session server listening on /data/data/com.termux/files/home/.local/share/code-server/code-server-ipc.sock
+[20:17:45] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[20:17:45] Extension host agent started.
+[20:17:45] Started initializing default profile extensions in extensions installation folder. file:///data/data/com.termux/files/home/.local/share/code-server/extensions
+[20:17:46] Completed initializing default profile extensions in extensions installation folder. file:///data/data/com.termux/files/home/.local/share/code-server/extensions
+[20:19:17] [127.0.0.1][36c16021][ManagementConnection] New connection established.
+[20:19:20] [127.0.0.1][4c75e4e2][ExtensionHostConnection] New connection established.
+[20:19:21] [127.0.0.1][4c75e4e2][ExtensionHostConnection] <20747> Launched Extension Host Process.
+[20:19:25] [127.0.0.1][4c75e4e2][ExtensionHostConnection] <20747> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:24:45] [127.0.0.1][36c16021][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:24:45] [127.0.0.1][4c75e4e2][ExtensionHostConnection] <20747> Extension Host Process exited with code: 0, signal: null.
+[20:24:48] [127.0.0.1][2b687446][ManagementConnection] New connection established.
+[20:24:50] [127.0.0.1][96326bed][ExtensionHostConnection] New connection established.
+[20:24:50] [127.0.0.1][96326bed][ExtensionHostConnection] <24954> Launched Extension Host Process.
+[20:24:52] [127.0.0.1][96326bed][ExtensionHostConnection] <24954> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:43:29] Getting Manifest... ms-python.python
+[20:43:38] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isApplicationScoped: false,
+  profileLocation: zr {
+    scheme: 'file',
+    authority: '',
+    path: '/data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.108.0', date: '2026-01-13T03:18:01.536Z' }
+}
+[20:43:40] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs The 'ms-python.vscode-python-envs' extension is not available in code-server for the Web platform.
+[20:43:40] Skipping the packed extension as it cannot be installed ms-python.debugpy The 'ms-python.debugpy' extension is not available in code-server for the Web platform.
+[20:43:50] Extracted extension to file:///data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal: ms-python.python
+[20:43:51] Renamed to /data/data/com.termux/files/home/.local/share/code-server/extensions/ms-python.python-2026.0.0-universal
+[20:43:51] Extension installed successfully: ms-python.python file:///data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json
+[21:30:39] [127.0.0.1][2b687446][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:15:20] [127.0.0.1][2b687446][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[08:15:33] [127.0.0.1][96326bed][ExtensionHostConnection] <24954> Extension Host Process exited with code: 0, signal: null.
